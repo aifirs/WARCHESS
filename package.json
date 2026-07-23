@@ -1,0 +1,11 @@
+{
+  "name": "warchess",
+  "private": true,
+  "version": "0.1.0",
+  "packageManager": "pnpm@9.0.0",
+  "scripts": {
+    "dev": "pnpm --parallel --filter web --filter server dev",
+    "build": "pnpm --filter web build && pnpm --filter server build",
+    "lint": "pnpm --parallel --filter web --filter server lint"
+  }
+}
